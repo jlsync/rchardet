@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name              = "edouard-rchardet"
+  s.name              = "rchardet"
   s.version           = "1.3.3"
   s.author            = "Jeff Hodges"
   s.email             = "jeff at somethingsimilar dot com"
-  s.homepage          = "http://github.com/edouard/rchardet"
+  s.homepage          = "http://github.com/Toptranslation/rchardet"
   s.platform          = Gem::Platform::RUBY
   s.summary           = "Character encoding auto-detection. Ruby 1.9 compat."
   s.description       = "Character encoding auto-detection in Ruby. This library is a port of the auto-detection code in Mozilla. It means taking a sequence of bytes in an unknown character encoding, and attempting to determine the encoding so you can read the text. It’s like cracking a code when you don’t have the decryption key."
